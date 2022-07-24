@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent Running successfully without any props 1`] = `
+<div
+  className="dnd"
+>
+  <h3>
+    Table with Drag and Drop
+  </h3>
+  <table
+    className="table table-striped table-bordered"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+        >
+          <span
+            onClick={[Function]}
+          >
+            Order
+          </span>
+        </th>
+        <th
+          scope="col"
+        >
+          <span
+            onClick={[Function]}
+          >
+            Id
+            <i
+              className="fa fa-fw fa-sort"
+            />
+          </span>
+        </th>
+        <th
+          scope="col"
+        >
+          Profile
+        </th>
+        <th
+          scope="col"
+        >
+          <span
+            onClick={[Function]}
+          >
+            First Name
+            <i
+              className="fa fa-fw fa-sort"
+            />
+          </span>
+        </th>
+        <th
+          scope="col"
+        >
+           
+          <span
+            onClick={[Function]}
+          >
+            Last Name
+            <i
+              className="fa fa-fw fa-sort"
+            />
+          </span>
+        </th>
+        <th
+          scope="col"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+  <div
+    className="mt-4"
+  >
+    <nav
+      aria-label="Page navigation "
+      className="float-right"
+    >
+      <ul
+        className="pagination"
+      >
+        <li
+          className="page-item"
+          onClick={[Function]}
+        >
+          <a
+            aria-label="Previous"
+            className="page-link"
+            href="#"
+          >
+            <span
+              aria-hidden="true"
+            >
+              «
+            </span>
+            <span
+              className="sr-only"
+            >
+              Previous
+            </span>
+          </a>
+        </li>
+        <li
+          className="page-item"
+          onClick={[Function]}
+        >
+          <a
+            aria-label="Next"
+            className="page-link"
+            href="#"
+          >
+            <span
+              aria-hidden="true"
+            >
+              »
+            </span>
+            <span
+              className="sr-only"
+            >
+              Next
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
