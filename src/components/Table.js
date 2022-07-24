@@ -21,7 +21,6 @@ const Table = () => {
   const [dragItem, setDragItem] = useState();
   const [list, setList] = useState([]);
   const [paginationObj, setPagination] = useState(null);
-  const [loading, setLoading] = useState(false);
   const [sortConfig, setSortConfig] = useState(null);
 
   ///on page load hooks call in which checking existing local storage and logic for Api call
@@ -56,7 +55,6 @@ const Table = () => {
   ///Method for handling fetching data from backend on the base of page number
   const fetchData = async (page) => {
     try {
-      setLoading(true);
       const result = await GET_USERS(page);
       let data = {
         pageination: {
@@ -72,9 +70,7 @@ const Table = () => {
       setList(result.data.data);
       //saved data into local db
       localStorage.setItem("myData", JSON.stringify(data));
-      setLoading(false);
     } catch (ex) {
-      setLoading(false);
     }
   };
 
